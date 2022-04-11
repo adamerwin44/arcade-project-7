@@ -1,0 +1,96 @@
+/*
+this html controls the basic elements, titles, buttons, and intake fields of the game 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"> 
+      <p class="title">Tic Tac Toe</p>    
+      <p class="rules of the game:?">
+             Tic-tac-toe  or Xs and Os Is a game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. If all the squares are filled and neither player has three in a row the game is a draw.    </p>
+       <p class="player one message">Place the name of the first player in the box below</p>
+       
+
+       <input type=string; id="player one";>
+        <p class="player two message">Place the name of the second player in the box below</p>
+        <input type=string; id="player two";>        <button id="playComputer">Or press this button to play against the computer</button>
+        <p></p>
+       
+        <button id="start">Start
+            <script margin.bottom:40px></script>
+        </button>
+<div class="options">
+<div class="o">O</div>
+<div class="x">X</div>
+<div class="computer">Computer</div>    
+<div class="friend">Friend</div>
+<div class="play">Play  </div>
+</div>
+//I thought the hide below would hide the words game over until another line of code called to unhide the game over
+/*
+<div class="gameover hide">Game Over</div>
+
+    <canvas id="cvs" width="400px" height="400px" > </canvas>
+    <div  class="board" id="board">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div> 
+    </div> 
+                <div class="message">
+                <div data-winning-message-thxt>
+                    
+                </div>
+
+            </div>
+*/
+</body>
+</html>
+
+<script src="options.js"></script>
+
+<script src="style.css"></script>
+*/
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="game--title">Tic Tac Toe</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
